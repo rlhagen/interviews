@@ -13,7 +13,7 @@ public class Application {
 				.build();
 
 		MessageRouter router = new MessageRouter(configuration);
-		router.route(new Message("hello there Putin from Ryan!"));
+		router.route(new Message<>("hello there Putin from Ryan!"));
 	}
 
 }
